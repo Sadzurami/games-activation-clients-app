@@ -2,17 +2,17 @@
 
 A simple application for activating game ENDLESS™ Space - Definitive Edition on many steam accounts.
 
-## How it works
+# How it works
 
 This application logs into your account, collects some information required for activation, and posts a task with this information to a third-party service. The service performs your task and activates the game on your account. Simple and fast.
 
-#### What kind of info is sent to a third-party service
+## What kind of info is sent to a third-party service
 
 1. [Steamid](https://help.steampowered.com/en/faqs/view/2816-BE67-5B69-0FEC)
 2. [Openid nonce](https://openid.net/specs/openid-connect-core-1_0.html#CodeFlowSteps:~:text=following%20request%20parameters%3A-,nonce,-OPTIONAL.%20String%20value)
 3. [Openid sig](https://openid.net/specs/openid-authentication-2_0.html#:~:text=return_to%2Cassoc_handle%2Cresponse_nonce%22.-,openid.sig,-Value%3A%20Base%2064)
 
-#### Ditailed pipeline
+## Ditailed pipeline
 
 1. Steam login
 2. Cheking game in library (optional)
@@ -20,13 +20,13 @@ This application logs into your account, collects some information required for 
 4. Creating a task with a returned openid response on a third-party service
 5. Waiting task result
 
-## Features
+# Features
 
-#### `Import accounts from` [`farms`](https://github.com/JustArchiNET/ArchiSteamFarm)
+## Import accounts from [farms](https://github.com/JustArchiNET/ArchiSteamFarm)
 
 You can select more than one farm. The search for accounts is recursive.
 
-#### `Import accounts from file`
+## Import accounts from file
 
 CSV format: `username:password`
 
@@ -36,27 +36,27 @@ Examples:
 -   `user2:pass2:email:emailpass`
 -   `user3:pass3:otheroptions`
 
-#### `Ignore List`
+## Ignore List
 
 You can add a list of usernames that you dont want to import. Each on a new line. Every successfully processed account is added to this list.
 
-#### `2FA auth`
+## 2FA auth
 
 Only when you import accounts from the farms.
 
-#### `Checking the game's existence`
+## Checking the game's existence
 
 Checks if the game exists on the account. If the game already exists, the script will move to the next account, and the current account will be added to the ignore list.
 
-#### `Requests proxification`
+## Requests proxification
 
 Supported protocols: http, https, socks5
 
-#### `Import proxies from farm`
+## Import proxies from farm
 
 From file ASF.json
 
-#### `Import proxies from file`
+## Import proxies from file
 
 Uri format: `protocol://username:password@host:port`
 
@@ -71,25 +71,25 @@ Examples:
 -   `socks://1.2.3.5:1235:https://changeip.com`
 -   `https://user1:pass1@1.2.3.5:1235:changeip.com`
 
-#### `Multithreading`
+## Multithreading
 
 For example, instead of one account, 10 do the same job at the same time. This is much faster, but it is recommended to use only if you have imported the proxy from a file.
 
-#### `Limit the number of script runs`
+## Limit the number of script runs
 
 You can limit the number of executions by successes or failures.
 
-## Screens
+# Screens
 
 ![tab.accounts](./src-docs/tab.accounts.png)
 ![tab.proxies](./src-docs/tab.proxies.png)
 ![tab.other](./src-docs/tab.other.png)
 
-## Install
+# Install
 
 Clone or [download](https://github.com/Sadzurami/ClientEndlessSpaceG2G/archive/refs/heads/main.zip) this repository and run `ClientEndlessSpaceG2G.exe`
 
-## Requirements
+# Requirements
 
 -   Windows x64 (7+)
 -   1 CPU, 512 MB RAM
