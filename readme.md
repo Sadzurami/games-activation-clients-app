@@ -4,7 +4,7 @@ A simple application for activating game ENDLESS™ Space - Definitive Edition o
 
 ## How it works
 
-This application logs into your account, collects some information required for activation, and posts a task with this information to a third-party service. The service performs your task and activates the game on your account. So simple and fast.
+This application logs into your account, collects some information required for activation, and posts a task with this information to a third-party service. The service performs your task and activates the game on your account. Simple and fast.
 
 #### What kind of info is sent to a third-party service
 
