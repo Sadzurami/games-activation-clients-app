@@ -73,7 +73,7 @@ Examples:
 
 #### `Multithreading`
 
-For example, instead of one account, 10 do the same job at the same time. It is much faster. It is recommended to use only if you have imported proxies from a file.
+For example, instead of one account, 10 do the same job at the same time. This is much faster, but it is recommended to use only if you have imported the proxy from a file.
 
 #### `Limit the number of script runs`
 
