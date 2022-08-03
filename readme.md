@@ -50,17 +50,19 @@ Optional. If the game already has an account, the application will go to work wi
 
 ## Requests proxification
 
-Supported protocols: http, https, socks5
+Supported protocols: http, https, socks5.
 
 ## Import proxies from farm
 
-From file ASF.json
+From the ASF.json file that corresponds to the current account.
 
 ## Import proxies from file
 
 Uri format: `protocol://username:password@host:port`
 
-The ip change link is supported, a GET request will be sent. If there is no response from the server or the server returns a status other than 200, the application will generate an IP change error.
+Proxies from a file have a higher priority than proxies from the farm, so if both options are provided, the proxy from the file will be selected.
+
+The ip change link is supported, a GET request will be sent. If there is no response from the server or if the server returns a status other than 200, the current execution of the script will fail with an IP address change error.
 
 Examples:
 
@@ -75,9 +77,9 @@ Examples:
 
 For example, instead of one account, 10 do the same job at the same time. This is much faster, but it is recommended to use only if you have imported the proxy from a file.
 
-## Limit the number of script runs
+## Limiting the number of runs
 
-You can limit the number of executions by successes or failures.
+You can limit the number of script runs by the number of successes or failures.
 
 # Screens
 
