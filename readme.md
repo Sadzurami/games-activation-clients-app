@@ -46,7 +46,7 @@ Only when you import accounts from the farms.
 
 ## Checking the game's existence
 
-Optional. If the game already exists, the script will move to the next account, and the current account will be added to the ignore list.
+Optional. If the game already has an account, the application will go to work with the next account, the current account will be added to the ignore list.
 
 ## Requests proxification
 
