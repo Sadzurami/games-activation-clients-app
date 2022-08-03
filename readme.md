@@ -42,7 +42,7 @@ You can add a list of usernames that you dont want to import. Each on a new line
 
 #### `2FA auth`
 
-Only when you import accounts from the farm.
+Only when you import accounts from the farms.
 
 #### `Checking the game's existence`
 
@@ -73,7 +73,7 @@ Examples:
 
 #### `Multithreading`
 
-For example, instead of one account, 10 are doing the same job at the same time. This is much faster. It is recommended to use only if you have imported a proxy from a file.
+For example, instead of one account, 10 do the same job at the same time. It is much faster. It is recommended to use only if you have imported proxies from a file.
 
 #### `Limit the number of script runs`
 
