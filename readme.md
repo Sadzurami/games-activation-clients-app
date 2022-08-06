@@ -15,7 +15,7 @@ This application logs into your account, collects some information required for 
 ## Ditailed pipeline
 
 1. Steam login
-2. Cheking game in library (optional)
+2. Cheking game in library
 3. Openid auth
 4. Creating a task with a returned openid response on a third-party service
 5. Waiting task result
@@ -46,7 +46,7 @@ Only when you import accounts from the farms.
 
 ## Checking the game's existence
 
-Optional. If the game already has an account, the application will go to work with the next account, the current account will be added to the ignore list.
+If the game already has an account, the application will go to work with the next account, the current account will be added to the ignore list.
 
 ## Requests proxification
 
