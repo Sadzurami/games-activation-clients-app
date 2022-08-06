@@ -12,6 +12,158 @@ section(RESOURCE_1 /*{{numThreads}}*/,RESOURCE_2 /*{{numGoodRuns}}*/,RESOURCE_3 
 
    section_end()!
 
+   section_start("\u007b\u0022n\u0022:\u0022getPathListIgnore\u0022,\u0022fd\u0022:\u0022\u007b\u005c\u0022fd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022hr\u005c\u0022:true,\u005c\u0022rd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022rv\u005c\u0022:\u005c\u0022FUNCTION_RESULT\u005c\u0022,\u005c\u0022p\u005c\u0022:[]\u007d\u0022\u007d", 197317248)!
+   function getPathListIgnore()
+   {
+   section_insert()
+      section_start("\u007b\u0022f\u0022:true\u007d", 329188073)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbX0dFVF9QQVRIX0xJU1RfSUdOT1JFXV0gPSB7XHJcbiAgICBhcmdzOiBfZnVuY3Rpb25fYXJndW1lbnRzKCksXHJcbiAgICByZXM6ICcnXHJcbn0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      VAR__GET_PATH_LIST_IGNORE = {
+      args: _function_arguments(),
+      res: ''
+      }
+      section_end()!
+
+      section_start("", 191468661)!
+      /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+      _call(function()
+      {
+      _on_fail(function(){
+      VAR_LAST_ERROR = _result()
+      VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+      VAR_WAS_ERROR = false
+      _break(1,true)
+      })
+      CYCLES.Current().RemoveLabel("function")
+      section_insert()
+         section_start("\u007b\u0022f\u0022:true\u007d", 352989029)!
+         /*Dat:eyJzIjoiR2V0UmVzb3VjZUxvY2F0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlJlc291cmNlTmFtZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoibGlzdElnbm9yZSJ9LHsiaWQiOiJTYXZlIiwidHlwZSI6InZhciIsImRhdGEiOiJSRVNPVVJDRV9MT0NBVElPTiJ9XX0=*/
+         VAR_RESOURCE_LOCATION =RInfo("listIgnore","Location")
+         section_end()!
+
+         section_start("\u007b\u0022f\u0022:true\u007d", 974854030)!
+         /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIhW1tSRVNPVVJDRV9MT0NBVElPTl1dLmxlbmd0aCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+         _set_if_expression("IVtbUkVTT1VSQ0VfTE9DQVRJT05dXS5sZW5ndGg=");
+         _if(!VAR_RESOURCE_LOCATION.length,function(){
+         section_insert()
+            section_start("\u007b\u0022f\u0022:true\u007d", 595232551)!
+            /*Dat:eyJzIjoiZmFpbCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJGYWlsTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiUGF0aCBpcyBlbXB0eSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+            fail_user("Path is empty",false)
+            section_end()!
+
+         })!
+         section_end()!
+
+         section_start("\u007b\u0022f\u0022:true\u007d", 900761254)!
+         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbX0dFVF9QQVRIX0xJU1RfSUdOT1JFXV1bJ3BhdGgnXSA9IFtbUkVTT1VSQ0VfTE9DQVRJT05dXSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+         VAR__GET_PATH_LIST_IGNORE['path'] = VAR_RESOURCE_LOCATION
+         section_end()!
+
+         section_start("\u007b\u0022f\u0022:true\u007d", 224011457)!
+         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbX0dFVF9QQVRIX0xJU1RfSUdOT1JFXV1bJ3JlcyddID0gW1tfR0VUX1BBVEhfTElTVF9JR05PUkVdXVsncGF0aCddIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+         VAR__GET_PATH_LIST_IGNORE['res'] = VAR__GET_PATH_LIST_IGNORE['path']
+         section_end()!
+
+         section_start("\u007b\u0022f\u0022:true\u007d", 385635331)!
+         /*Dat:eyJzIjoicmV0dXJuIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlJldHVyblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW19HRVRfUEFUSF9MSVNUX0lHTk9SRV1dWydyZXMnXSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+         _function_return(VAR__GET_PATH_LIST_IGNORE['res'])
+         section_end()!
+
+      },null)!
+      section_end()!
+
+      section_start("\u007b\u0022f\u0022:true\u007d", 632429066)!
+      /*Dat:eyJzIjoiZmFpbCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJGYWlsTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiZ2V0UGF0aExpc3RJZ25vcmU6IEZhaWxlZCIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+      fail_user("getPathListIgnore: Failed",false)
+      section_end()!
+
+   }
+   section_end()!
+
+   section_start("\u007b\u0022n\u0022:\u0022verifyListIgnore\u0022,\u0022f\u0022:true,\u0022fd\u0022:\u0022\u007b\u005c\u0022fd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022hr\u005c\u0022:false,\u005c\u0022rd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022rv\u005c\u0022:\u005c\u0022FUNCTION_RESULT\u005c\u0022,\u005c\u0022p\u005c\u0022:[]\u007d\u0022\u007d", 202831540)!
+   function verifyListIgnore()
+   {
+   section_insert()
+      section_start("\u007b\u0022f\u0022:true\u007d", 919908949)!
+      /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbX1ZFUklGWV9MSVNUX0lHTk9SRV1dID0ge1xyXG4gICAgYXJnczogX2Z1bmN0aW9uX2FyZ3VtZW50cygpLFxyXG4gICAgcmVzOiBudWxsXHJcbn0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+      VAR__VERIFY_LIST_IGNORE = {
+      args: _function_arguments(),
+      res: null
+      }
+      section_end()!
+
+      section_start("\u007b\u0022f\u0022:true\u007d", 453121291)!
+      /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+      _call(function()
+      {
+      _on_fail(function(){
+      VAR_LAST_ERROR = _result()
+      VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+      VAR_WAS_ERROR = false
+      _break(1,true)
+      })
+      CYCLES.Current().RemoveLabel("function")
+      section_insert()
+         section_start("\u007b\u0022f\u0022:true\u007d", 135553544)!
+         /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6ImdldFBhdGhMaXN0SWdub3JlIn0seyJpZCI6IlNhdmUiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkZVTkNUSU9OX1JFU1VMVCJ9XX0=*/
+         _call_function(getPathListIgnore,{})!
+         VAR_FUNCTION_RESULT = _result_function()
+         section_end()!
+
+         section_start("\u007b\u0022f\u0022:true\u007d", 844805790)!
+         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbX1ZFUklGWV9MSVNUX0lHTk9SRV1dWydwYXRoJ10gPSBbW0ZVTkNUSU9OX1JFU1VMVF1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+         VAR__VERIFY_LIST_IGNORE['path'] = VAR_FUNCTION_RESULT
+         section_end()!
+
+         section_start("\u007b\u0022f\u0022:true\u007d", 102770447)!
+         /*Dat:eyJzIjoiZmlsZXN5c3RlbV9maWxlaW5mbyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tfVkVSSUZZX0xJU1RfSUdOT1JFXV1bJ3BhdGgnXSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IlNhdmVFeGlzdHMiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkZJTEVJTkZPX0VYSVNUUyJ9LHsiaWQiOiJTYXZlU2l6ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiRklMRUlORk9fU0laRSJ9LHsiaWQiOiJTYXZlRGlyZWN0b3J5IiwidHlwZSI6InZhciIsImRhdGEiOiJGSUxFSU5GT19CQVNFX0RJUkVDVE9SWSJ9LHsiaWQiOiJTYXZlSXNEaXJlY3RvcnkiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkZJTEVJTkZPX0lTX0RJUkVDVE9SWSJ9LHsiaWQiOiJTYXZlTGFzdE1vZGlmaWVkIiwidHlwZSI6InZhciIsImRhdGEiOiJGSUxFSU5GT19MQVNUX01PRElGSUVEIn1dfQ==*/
+         var json = JSON.parse(native("filesystem", "fileinfo", VAR__VERIFY_LIST_IGNORE + "[\u0027path\u0027]"))
+         VAR_FILEINFO_EXISTS = json["exists"]
+         VAR_FILEINFO_SIZE = json["size"]
+         VAR_FILEINFO_BASE_DIRECTORY = json["directory"]
+         VAR_FILEINFO_IS_DIRECTORY = json["is_directory"]
+         VAR_FILEINFO_LAST_MODIFIED = new Date(json["last_modified"] * 1000)
+         section_end()!
+
+         section_start("\u007b\u0022f\u0022:true\u007d", 340435275)!
+         /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbX1ZFUklGWV9MSVNUX0lHTk9SRV1dWydleGlzdHMnXSA9IFtbRklMRUlORk9fRVhJU1RTXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifV19*/
+         VAR__VERIFY_LIST_IGNORE['exists'] = VAR_FILEINFO_EXISTS
+         section_end()!
+
+         section_start("\u007b\u0022f\u0022:true\u007d", 274866247)!
+         /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIhW1tfVkVSSUZZX0xJU1RfSUdOT1JFXV1bJ2V4aXN0cyddIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+         _set_if_expression("IVtbX1ZFUklGWV9MSVNUX0lHTk9SRV1dWydleGlzdHMnXQ==");
+         _if(!VAR__VERIFY_LIST_IGNORE['exists'],function(){
+         section_insert()
+            section_start("\u007b\u0022f\u0022:true\u007d", 824122856)!
+            /*Dat:eyJzIjoiZmlsZXN5c3RlbV93cml0ZWZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRmlsZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tfVkVSSUZZX0xJU1RfSUdOT1JFXV1bJ3BhdGgnXSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJWYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiJyciLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiQ2hlY2szIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9LHsiaWQiOiJDaGVjayIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2syIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+            native("filesystem", "writefile", JSON.stringify({path: VAR__VERIFY_LIST_IGNORE['path'],value: ('').toString(),base64:false,append:false}))
+            section_end()!
+
+         })!
+         section_end()!
+
+         section_start("\u007b\u0022f\u0022:true\u007d", 609559867)!
+         /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6Ilt2ZXJpZnlMaXN0SWdub3JlXTogU3VjY2VzcyIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+         log("[verifyListIgnore]: Success")
+         section_end()!
+
+         section_start("\u007b\u0022f\u0022:true\u007d", 795782121)!
+         /*Dat:eyJzIjoicmV0dXJuIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlJldHVyblZhbHVlIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIiLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+         _function_return("")
+         section_end()!
+
+      },null)!
+      section_end()!
+
+      section_start("\u007b\u0022f\u0022:true\u007d", 294019669)!
+      /*Dat:eyJzIjoiZmFpbCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJGYWlsTWVzc2FnZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidmVyaWZ5TGlzdElnbm9yZTogRmFpbGVkIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+      fail_user("verifyListIgnore: Failed",false)
+      section_end()!
+
+   }
+   section_end()!
+
    section_start("\u007b\u0022n\u0022:\u0022completeExec\u0022,\u0022f\u0022:true,\u0022fd\u0022:\u0022\u007b\u005c\u0022fd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022hr\u005c\u0022:false,\u005c\u0022rd\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022rv\u005c\u0022:\u005c\u0022FUNCTION_RESULT\u005c\u0022,\u005c\u0022p\u005c\u0022:[\u007b\u005c\u0022name\u005c\u0022:\u005c\u0022account\u005c\u0022,\u005c\u0022type\u005c\u0022:\u005c\u0022Expression\u005c\u0022,\u005c\u0022description\u005c\u0022:\u005c\u0022\u005c\u0022,\u005c\u0022defaults\u005c\u0022:\u005c\u0022\u005c\u0022\u007d]\u007d\u0022\u007d", 907365896)!
    function completeExec()
    {
@@ -84,7 +236,7 @@ section(RESOURCE_1 /*{{numThreads}}*/,RESOURCE_2 /*{{numGoodRuns}}*/,RESOURCE_3 
       VAR__VERIFY_GAME_ON_ACCOUNT['account'] = VAR__VERIFY_GAME_ON_ACCOUNT['args']['account']
       section_end()!
 
-      section_start("", 883766561)!
+      section_start("\u007b\u0022f\u0022:true\u007d", 883766561)!
       /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
       _call(function()
       {
@@ -261,8 +413,8 @@ section(RESOURCE_1 /*{{numThreads}}*/,RESOURCE_2 /*{{numGoodRuns}}*/,RESOURCE_3 
          if(!BREAK_CONDITION)_break();
          section_insert()
             section_start("\u007b\u0022f\u0022:true\u007d", 642090777)!
-            /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwcmFuZG9tIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
-            sleep(10000)!
+            /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiI1MDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+            sleep(5000)!
             section_end()!
 
             section_start("\u007b\u0022f\u0022:true\u007d", 879492685)!
@@ -2239,6 +2391,12 @@ section(RESOURCE_1 /*{{numThreads}}*/,RESOURCE_2 /*{{numGoodRuns}}*/,RESOURCE_3 
       _result_function()
       section_end()!
 
+      section_start("\u007b\u0022f\u0022:true\u007d", 788811403)!
+      /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6InZlcmlmeUxpc3RJZ25vcmUifV19*/
+      _call_function(verifyListIgnore,{})!
+      _result_function()
+      section_end()!
+
       section_start("\u007b\u0022f\u0022:true\u007d", 179111680)!
       /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6InVwZGF0ZUFjY291bnRzTGlzdCJ9XX0=*/
       _call_function(updateAccountsList,{})!
@@ -3253,7 +3411,7 @@ section(RESOURCE_1 /*{{numThreads}}*/,RESOURCE_2 /*{{numGoodRuns}}*/,RESOURCE_3 
       VAR_FUNCTION_RESULT = _result_function()
       section_end()!
 
-      section_start("", 528218797)!
+      section_start("\u007b\u0022f\u0022:true\u007d", 528218797)!
       /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW19BUFBdXVsnYWNjb3VudCddWydoYXNHYW1lJ10iLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
       _set_if_expression("W1tfQVBQXV1bJ2FjY291bnQnXVsnaGFzR2FtZSdd");
       _if(VAR__APP['account']['hasGame'],function(){
@@ -3498,7 +3656,7 @@ section(RESOURCE_1 /*{{numThreads}}*/,RESOURCE_2 /*{{numGoodRuns}}*/,RESOURCE_3 
      <CopySilent>false</CopySilent>
      <IsEnginesInAppData>false</IsEnginesInAppData>
      <CompileType>PrivateScriptUserEnterPass</CompileType>
-     <ScriptVersion>1.0.2</ScriptVersion>
+     <ScriptVersion>1.0.5</ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
      <EngineVersion>25.1.2</EngineVersion>
      <SettingsWorker>EnableFlash=false
@@ -3510,7 +3668,7 @@ ToolboxHeight=478
 MaxBrowserStartSimultaneously=3
 MinFreeMemoryToStartBrowser=1500
 MinUnusedCpu=35
-ScenarioWidth=804
+ScenarioWidth=565
 Zoom=100
 IsMaximized=false
 Restart=true
@@ -3554,7 +3712,7 @@ Detector=true
     &quot;SmsReceive&quot;: false
 }
 </ModulesMetaJson>
-     <InterfaceState>{&quot;variables&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;CYCLE_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ERROR_ID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILE_CONTENT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FOREACH_DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FUNCTION_RESULT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LAST_ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RESOURCE_AS_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SAVED_CONTENT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SAVED_HEADER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SAVED_STATUS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WAS_ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_APP&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_CHANGE_IP&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_COMPLETE_EXEC&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_CREATE_TASK&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_FILTER_ACCOUNTS_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_2FA_FROM_FILE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_ACCOUNT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_ACCOUNTS_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_ACCOUNT_FROM_FILE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_ACCOUNT_FROM_STRING&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_IGNORE_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_IP&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_PROXY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_PROXY_FROM_FILE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_TASK_RESULT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_INSTALL_REQUIREMENTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_OPENID_AUTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_PARSE_PROXY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_SET_HTTP_CLIENT_COOKIES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_SET_HTTP_CLIENT_HEADERS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_SET_HTTP_CLIENT_PROXY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_SET_HTTP_CLIENT_SETTINGS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_SET_STEAM_TIME_OFFSET&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_STEAM_AUTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_UPDATE_ACCOUNTS_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_VERIFY_GAME_ON_ACCOUNT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_WAIT_CONN_PERMISSION&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_WAIT_SERVER_READY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;GLOBAL:STEAM_TIME_OFFSET&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;FUNCTION_RESULT\&quot;]&quot;:true,&quot;[\&quot;_UPDATE_ACCOUNTS_LIST\&quot;]&quot;:true,&quot;[\&quot;_UPDATE_ACCOUNTS_LIST\&quot;,\&quot;args\&quot;]&quot;:false,&quot;[\&quot;_UPDATE_ACCOUNTS_LIST\&quot;,\&quot;listIgnore\&quot;]&quot;:false,&quot;[\&quot;_UPDATE_ACCOUNTS_LIST\&quot;,\&quot;raw\&quot;]&quot;:true,&quot;[\&quot;_GET_ACCOUNT_FROM_FILE\&quot;]&quot;:true,&quot;[\&quot;_GET_ACCOUNT_FROM_FILE\&quot;,\&quot;res\&quot;]&quot;:false,&quot;[\&quot;_GET_2FA_FROM_FILE\&quot;]&quot;:false,&quot;[\&quot;_GET_2FA_FROM_FILE\&quot;,\&quot;res\&quot;]&quot;:false,&quot;[\&quot;_GET_2FA_FROM_FILE\&quot;,\&quot;fileParsed\&quot;]&quot;:true,&quot;[\&quot;_GET_2FA_FROM_FILE\&quot;,\&quot;fileParsed\&quot;,\&quot;_MobileAuthenticator\&quot;]&quot;:true,&quot;[\&quot;_GET_2FA_FROM_FILE\&quot;,\&quot;2fa\&quot;]&quot;:true,&quot;[\&quot;_GET_2FA_FROM_FILE\&quot;,\&quot;args\&quot;]&quot;:true,&quot;[\&quot;_GET_PROXY_FROM_FILE\&quot;]&quot;:true,&quot;[\&quot;_APP\&quot;]&quot;:true,&quot;[\&quot;_APP\&quot;,\&quot;args\&quot;]&quot;:false,&quot;[\&quot;_APP\&quot;,\&quot;account\&quot;]&quot;:true,&quot;[\&quot;_APP\&quot;,\&quot;account\&quot;,\&quot;2fa\&quot;]&quot;:false,&quot;[\&quot;_APP\&quot;,\&quot;account\&quot;,\&quot;2fa\&quot;,\&quot;shared_secret\&quot;]&quot;:true,&quot;[\&quot;_WAIT_CONN_PERMISSION\&quot;]&quot;:true,&quot;[\&quot;RES\&quot;]&quot;:true,&quot;[\&quot;_WAIT_CONN_PERMISSION\&quot;,\&quot;args\&quot;]&quot;:false,&quot;[\&quot;_STEAM_AUTH\&quot;]&quot;:true,&quot;[\&quot;_STEAM_AUTH\&quot;,\&quot;res\&quot;]&quot;:false,&quot;[\&quot;_STEAM_AUTH\&quot;,\&quot;account\&quot;]&quot;:true,&quot;[\&quot;_STEAM_AUTH\&quot;,\&quot;account\&quot;,\&quot;2fa\&quot;]&quot;:true,&quot;[\&quot;_STEAM_AUTH\&quot;,\&quot;account\&quot;,\&quot;2fa\&quot;,\&quot;shared_secret\&quot;]&quot;:true,&quot;[\&quot;RES\&quot;,\&quot;rgWishlist\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgOwnedPackages\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgOwnedApps\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgFollowedApps\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgMasterSubApps\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgPackagesInCart\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgAppsInCart\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgIgnoredApps\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgIgnoredPackages\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgCurators\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgCuratorsIgnored\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgCurations\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgCreatorsFollowed\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgCreatorsIgnored\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgExcludedTags\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgAutoGrantApps\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgRecommendedApps\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgPreferredPlatforms\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgSecondaryLanguages\&quot;]&quot;:false,&quot;[\&quot;_GET_ACCOUNT\&quot;]&quot;:true,&quot;[\&quot;_GET_ACCOUNT\&quot;,\&quot;args\&quot;]&quot;:false,&quot;[\&quot;_GET_ACCOUNT\&quot;,\&quot;account\&quot;]&quot;:true,&quot;[\&quot;_GET_ACCOUNT\&quot;,\&quot;res\&quot;]&quot;:false}},&quot;resources&quot;:{&quot;sortings&quot;:[],&quot;filters&quot;:[],&quot;options&quot;:[],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;apiAccesKey&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;apiBaseUrl&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;listAccounts&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;listIgnore&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;listProxies&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;numBadRuns&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;numGoodRuns&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;numThreads&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;userProvideOwnProxies&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;listIgnore\&quot;]&quot;:false,&quot;[\&quot;listProxies\&quot;]&quot;:false,&quot;[\&quot;listAccounts\&quot;]&quot;:false}},&quot;callstack&quot;:{&quot;filters&quot;:[]}}</InterfaceState>
+     <InterfaceState>{&quot;variables&quot;:{&quot;sortings&quot;:[{&quot;name&quot;:&quot;frequency&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateModified&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;dateCreated&quot;,&quot;active&quot;:false},{&quot;name&quot;:&quot;alphabetically&quot;,&quot;active&quot;:true}],&quot;filters&quot;:[{&quot;name&quot;:&quot;undefined&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;boolean&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;object&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;string&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;number&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;array&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;date&quot;,&quot;active&quot;:true},{&quot;name&quot;:&quot;null&quot;,&quot;active&quot;:true}],&quot;options&quot;:[{&quot;name&quot;:&quot;groups&quot;,&quot;active&quot;:false}],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;CYCLE_INDEX&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;ERROR_ID&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_BASE_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_EXISTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_IS_DIRECTORY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_LAST_MODIFIED&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILEINFO_SIZE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FILE_CONTENT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FOREACH_DATA&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;FUNCTION_RESULT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;LAST_ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RESOURCE_AS_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;RESOURCE_LOCATION&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SAVED_CONTENT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SAVED_HEADER&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;SAVED_STATUS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;WAS_ERROR&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_APP&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_CHANGE_IP&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_COMPLETE_EXEC&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_CREATE_TASK&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_FILTER_ACCOUNTS_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_2FA_FROM_FILE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_ACCOUNT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_ACCOUNTS_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_ACCOUNT_FROM_FILE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_ACCOUNT_FROM_STRING&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_IGNORE_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_IP&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_PATH_LIST_IGNORE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_PROXY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_PROXY_FROM_FILE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_GET_TASK_RESULT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_INSTALL_REQUIREMENTS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_OPENID_AUTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_PARSE_PROXY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_SET_HTTP_CLIENT_COOKIES&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_SET_HTTP_CLIENT_HEADERS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_SET_HTTP_CLIENT_PROXY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_SET_HTTP_CLIENT_SETTINGS&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_SET_STEAM_TIME_OFFSET&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_STEAM_AUTH&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_UPDATE_ACCOUNTS_LIST&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_VERIFY_GAME_ON_ACCOUNT&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_VERIFY_LIST_IGNORE&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_WAIT_CONN_PERMISSION&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;_WAIT_SERVER_READY&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;GLOBAL:STEAM_TIME_OFFSET&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;FUNCTION_RESULT\&quot;]&quot;:true,&quot;[\&quot;_UPDATE_ACCOUNTS_LIST\&quot;]&quot;:true,&quot;[\&quot;_UPDATE_ACCOUNTS_LIST\&quot;,\&quot;args\&quot;]&quot;:false,&quot;[\&quot;_UPDATE_ACCOUNTS_LIST\&quot;,\&quot;listIgnore\&quot;]&quot;:false,&quot;[\&quot;_UPDATE_ACCOUNTS_LIST\&quot;,\&quot;raw\&quot;]&quot;:true,&quot;[\&quot;_GET_ACCOUNT_FROM_FILE\&quot;]&quot;:true,&quot;[\&quot;_GET_ACCOUNT_FROM_FILE\&quot;,\&quot;res\&quot;]&quot;:false,&quot;[\&quot;_GET_2FA_FROM_FILE\&quot;]&quot;:false,&quot;[\&quot;_GET_2FA_FROM_FILE\&quot;,\&quot;res\&quot;]&quot;:false,&quot;[\&quot;_GET_2FA_FROM_FILE\&quot;,\&quot;fileParsed\&quot;]&quot;:true,&quot;[\&quot;_GET_2FA_FROM_FILE\&quot;,\&quot;fileParsed\&quot;,\&quot;_MobileAuthenticator\&quot;]&quot;:true,&quot;[\&quot;_GET_2FA_FROM_FILE\&quot;,\&quot;2fa\&quot;]&quot;:true,&quot;[\&quot;_GET_2FA_FROM_FILE\&quot;,\&quot;args\&quot;]&quot;:true,&quot;[\&quot;_GET_PROXY_FROM_FILE\&quot;]&quot;:true,&quot;[\&quot;_APP\&quot;]&quot;:true,&quot;[\&quot;_APP\&quot;,\&quot;args\&quot;]&quot;:false,&quot;[\&quot;_APP\&quot;,\&quot;account\&quot;]&quot;:true,&quot;[\&quot;_APP\&quot;,\&quot;account\&quot;,\&quot;2fa\&quot;]&quot;:false,&quot;[\&quot;_APP\&quot;,\&quot;account\&quot;,\&quot;2fa\&quot;,\&quot;shared_secret\&quot;]&quot;:true,&quot;[\&quot;_WAIT_CONN_PERMISSION\&quot;]&quot;:true,&quot;[\&quot;RES\&quot;]&quot;:true,&quot;[\&quot;_WAIT_CONN_PERMISSION\&quot;,\&quot;args\&quot;]&quot;:false,&quot;[\&quot;_STEAM_AUTH\&quot;]&quot;:true,&quot;[\&quot;_STEAM_AUTH\&quot;,\&quot;res\&quot;]&quot;:false,&quot;[\&quot;_STEAM_AUTH\&quot;,\&quot;account\&quot;]&quot;:true,&quot;[\&quot;_STEAM_AUTH\&quot;,\&quot;account\&quot;,\&quot;2fa\&quot;]&quot;:true,&quot;[\&quot;_STEAM_AUTH\&quot;,\&quot;account\&quot;,\&quot;2fa\&quot;,\&quot;shared_secret\&quot;]&quot;:true,&quot;[\&quot;RES\&quot;,\&quot;rgWishlist\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgOwnedPackages\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgOwnedApps\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgFollowedApps\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgMasterSubApps\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgPackagesInCart\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgAppsInCart\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgIgnoredApps\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgIgnoredPackages\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgCurators\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgCuratorsIgnored\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgCurations\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgCreatorsFollowed\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgCreatorsIgnored\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgExcludedTags\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgAutoGrantApps\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgRecommendedApps\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgPreferredPlatforms\&quot;]&quot;:false,&quot;[\&quot;RES\&quot;,\&quot;rgSecondaryLanguages\&quot;]&quot;:false,&quot;[\&quot;_GET_ACCOUNT\&quot;]&quot;:true,&quot;[\&quot;_GET_ACCOUNT\&quot;,\&quot;args\&quot;]&quot;:false,&quot;[\&quot;_GET_ACCOUNT\&quot;,\&quot;account\&quot;]&quot;:true,&quot;[\&quot;_GET_ACCOUNT\&quot;,\&quot;res\&quot;]&quot;:false,&quot;[\&quot;_VERIFY_LIST_IGNORE\&quot;]&quot;:true,&quot;[\&quot;_VERIFY_LIST_IGNORE\&quot;,\&quot;args\&quot;]&quot;:false}},&quot;resources&quot;:{&quot;sortings&quot;:[],&quot;filters&quot;:[],&quot;options&quot;:[],&quot;groups&quot;:[{&quot;id&quot;:0,&quot;name&quot;:&quot;Main&quot;,&quot;color&quot;:&quot;brown&quot;,&quot;expanded&quot;:true,&quot;items&quot;:[{&quot;key&quot;:&quot;apiAccesKey&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;apiBaseUrl&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;listAccounts&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;listIgnore&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;listProxies&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;numBadRuns&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;numGoodRuns&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;numThreads&quot;,&quot;fixed&quot;:false},{&quot;key&quot;:&quot;userProvideOwnProxies&quot;,&quot;fixed&quot;:false}]}],&quot;nodes&quot;:{&quot;[\&quot;listIgnore\&quot;]&quot;:false,&quot;[\&quot;listProxies\&quot;]&quot;:false,&quot;[\&quot;listAccounts\&quot;]&quot;:false}},&quot;callstack&quot;:{&quot;filters&quot;:[]}}</InterfaceState>
      <OutputTitle1 ru="Отфильтрованные аккаунты" en="Filtered accounts"/>
      <OutputTitle2 ru="Аккаунты с успехом" en="Accounts with success"/>
      <OutputTitle3 ru="Аккаунты с неудачами" en="Accounts with fails"/>
@@ -3633,7 +3791,7 @@ Detector=true
                <Visible>1</Visible>
                <Enabled>1</Enabled>
                <AllowedTypes>LinesFromFile</AllowedTypes>
-               <Filename></Filename>
+               <Filename>C:/Program Files/ClientEndlessSpaceG2G/ignorelist.txt</Filename>
                <Clean>1</Clean>
                <Read>1</Read>
                <Mix>0</Mix>
