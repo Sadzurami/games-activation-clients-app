@@ -4067,9 +4067,25 @@ no (нет)</Values>
           </Model>
           <Defaults/>
           <Model>
+               <Name>numGoodRuns</Name>
+               <Description ru="Успешных выполнений" en="Good runs"/>
+               <SectionName ru="" en=""/>
+               <VisibilityConditionValue></VisibilityConditionValue>
+               <VisibilityConditionVariable></VisibilityConditionVariable>
+               <Type>FixedInteger</Type>
+               <IsAdvanced>0</IsAdvanced>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
+               <AllowedTypes>FixedInteger</AllowedTypes>
+               <Value>1000</Value>
+               <MinValue>1</MinValue>
+               <MaxValue>10000000</MaxValue>
+          </Model>
+          <Defaults/>
+          <Model>
                <Name>numBadRuns</Name>
                <Description ru="Неудачных выполнений" en="Bad runs"/>
-               <SectionName en=""/>
+               <SectionName ru="" en=""/>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
@@ -4080,22 +4096,6 @@ no (нет)</Values>
                <Value>100</Value>
                <MinValue>1</MinValue>
                <MaxValue>1000000</MaxValue>
-          </Model>
-          <Defaults/>
-          <Model>
-               <Name>numGoodRuns</Name>
-               <Description ru="Успешных выполнений" en="Good runs"/>
-               <SectionName en=""/>
-               <VisibilityConditionValue></VisibilityConditionValue>
-               <VisibilityConditionVariable></VisibilityConditionVariable>
-               <Type>FixedInteger</Type>
-               <IsAdvanced>0</IsAdvanced>
-               <Visible>1</Visible>
-               <Enabled>1</Enabled>
-               <AllowedTypes>FixedInteger</AllowedTypes>
-               <Value>100</Value>
-               <MinValue>1</MinValue>
-               <MaxValue>10000000</MaxValue>
           </Model>
           <Defaults/>
      </ModelList>
