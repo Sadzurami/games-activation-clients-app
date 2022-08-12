@@ -3936,7 +3936,7 @@ section(RESOURCE_1 /*{{numThreads}}*/,RESOURCE_2 /*{{numGoodRuns}}*/,RESOURCE_3 
      <CopySilent>false</CopySilent>
      <IsEnginesInAppData>false</IsEnginesInAppData>
      <CompileType>PrivateScriptUserEnterPass</CompileType>
-     <ScriptVersion>1.1.9</ScriptVersion>
+     <ScriptVersion>1.2.0</ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
      <EngineVersion>25.1.2</EngineVersion>
      <SettingsWorker>EnableFlash=false
@@ -4193,11 +4193,11 @@ no (нет)</Values>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
-               <IsAdvanced>0</IsAdvanced>
+               <IsAdvanced>1</IsAdvanced>
                <Visible>1</Visible>
                <Enabled>1</Enabled>
                <AllowedTypes>FixedInteger</AllowedTypes>
-               <Value>1000</Value>
+               <Value>100000</Value>
                <MinValue>1</MinValue>
                <MaxValue>10000000</MaxValue>
           </Model>
@@ -4209,7 +4209,7 @@ no (нет)</Values>
                <VisibilityConditionValue></VisibilityConditionValue>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedInteger</Type>
-               <IsAdvanced>0</IsAdvanced>
+               <IsAdvanced>1</IsAdvanced>
                <Visible>1</Visible>
                <Enabled>1</Enabled>
                <AllowedTypes>FixedInteger</AllowedTypes>
