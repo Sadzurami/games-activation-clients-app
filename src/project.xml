@@ -3936,7 +3936,7 @@ section(RESOURCE_1 /*{{numThreads}}*/,RESOURCE_2 /*{{numGoodRuns}}*/,RESOURCE_3 
      <CopySilent>false</CopySilent>
      <IsEnginesInAppData>false</IsEnginesInAppData>
      <CompileType>PrivateScriptUserEnterPass</CompileType>
-     <ScriptVersion>1.2.0</ScriptVersion>
+     <ScriptVersion>1.2.1</ScriptVersion>
      <AvailableLanguages>en,ru</AvailableLanguages>
      <EngineVersion>25.1.2</EngineVersion>
      <SettingsWorker>EnableFlash=false
@@ -4052,7 +4052,7 @@ Detector=true
                <IsAdvanced>0</IsAdvanced>
                <Visible>1</Visible>
                <Enabled>1</Enabled>
-               <AllowedTypes>FilesFromDirectory,LinesFromFile</AllowedTypes>
+               <AllowedTypes>FixedString,FilesFromDirectory,LinesFromFile</AllowedTypes>
                <FilesFromDirectory></FilesFromDirectory>
                <Wildcard>*.*</Wildcard>
                <Clean>0</Clean>
@@ -4072,17 +4072,31 @@ Detector=true
                     <SectionName en=""/>
                     <VisibilityConditionValue></VisibilityConditionValue>
                     <VisibilityConditionVariable></VisibilityConditionVariable>
+                    <Type>FixedString</Type>
+                    <IsAdvanced>0</IsAdvanced>
+                    <Visible>1</Visible>
+                    <Enabled>1</Enabled>
+                    <AllowedTypes>FixedString,FilesFromDirectory,LinesFromFile</AllowedTypes>
+                    <Value></Value>
+                    <NotEmpty>1</NotEmpty>
+               </Default>
+               <Default>
+                    <Name>listAccounts</Name>
+                    <Description en="Accounts" ru="Аккаунты"/>
+                    <SectionName en=""/>
+                    <VisibilityConditionValue></VisibilityConditionValue>
+                    <VisibilityConditionVariable></VisibilityConditionVariable>
                     <Type>LinesFromFile</Type>
                     <IsAdvanced>0</IsAdvanced>
                     <Visible>1</Visible>
                     <Enabled>1</Enabled>
-                    <AllowedTypes>FilesFromDirectory,LinesFromFile</AllowedTypes>
+                    <AllowedTypes>FixedString,FilesFromDirectory,LinesFromFile</AllowedTypes>
                     <Filename></Filename>
                     <Clean>0</Clean>
                     <Read>1</Read>
                     <Mix>0</Mix>
                     <MaxSuccess>1</MaxSuccess>
-                    <MaxFail>1</MaxFail>
+                    <MaxFail>3</MaxFail>
                     <MaxSimultaneous>1</MaxSimultaneous>
                     <Interval>5000</Interval>
                     <ReloadInterval>0</ReloadInterval>
