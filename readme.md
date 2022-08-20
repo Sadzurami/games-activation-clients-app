@@ -42,7 +42,7 @@ You can add a list of usernames that you dont want to import. Each on a new line
 
 ## 2FA auth
 
-Only when you import accounts from the farms.
+Mobile and email guard supported.
 
 ## Checking the game's existence
 
