@@ -1,6 +1,6 @@
 # Endless Space Activation Client
 
-A simple application for activating game ENDLESS™ Space - Definitive Edition on many steam accounts.
+A simple application for mass activating game ENDLESS™ Space - Definitive Edition for steams accounts.
 
 # How it works
 
