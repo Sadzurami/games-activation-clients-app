@@ -6,7 +6,7 @@ A simple application for mass activating game ENDLESS™ Space - Definitive Edit
 
 This application logs into your account, collects some information required for activation, and sends a job to the backend. The server completes your task and activates the game on your account. Simple and quick.
 
-## What kind of info is sent to a third-party service
+## What kind of info is sent to the backend
 
 1. [Steamid](https://help.steampowered.com/en/faqs/view/2816-BE67-5B69-0FEC)
 2. [Openid nonce](https://openid.net/specs/openid-connect-core-1_0.html#CodeFlowSteps:~:text=following%20request%20parameters%3A-,nonce,-OPTIONAL.%20String%20value)
