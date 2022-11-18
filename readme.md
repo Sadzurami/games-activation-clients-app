@@ -4,7 +4,7 @@ A simple application for activating game ENDLESS™ Space - Definitive Edition o
 
 # How it works
 
-This application logs into your account, collects some information required for activation, and posts a task with this information to a third-party service. The service performs your task and activates the game on your account. Simple and fast.
+This application logs into your account, collects some information required for activation, and sends a job to the backend. The server completes your task and activates the game on your account. Simple and quick.
 
 ## What kind of info is sent to a third-party service
 
@@ -17,7 +17,7 @@ This application logs into your account, collects some information required for 
 1. Steam login
 2. Cheking game in library
 3. Openid auth
-4. Creating a task with a returned openid response on a third-party service
+4. Creating a task on server side with a returned openid response
 5. Waiting task result
 
 # Features
@@ -35,10 +35,6 @@ Examples:
 -   `user1:pass1`
 -   `user2:pass2:email:emailpass`
 -   `user3:pass3:otheroptions`
-
-## Ignore List
-
-You can add a list of usernames that you dont want to import. Each on a new line. Every successfully processed account is added to this list.
 
 ## 2FA auth
 
@@ -58,8 +54,6 @@ From the ASF.json file that corresponds to the current account.
 
 ## Import proxies from file
 
-Uri format: `protocol://username:password@host:port`
-
 Proxies from a file have a higher priority than proxies from the farm, so if both options are provided, the proxy from the file will be selected.
 
 The ip change link is supported, a GET request will be sent. If there is no response from the server or if the server returns a status other than 200, the current execution of the script will fail with an IP address change error.
@@ -68,8 +62,7 @@ Examples:
 
 -   `http://user1:pass1@1.2.3.5:1235`
 -   `socks://1.2.3.5:1235`
--   `socks5://user1:pass1@1.2.3.5:1235`
--   `http://127.0.0.1:1235`
+-   `1.2.3.5:1235`
 -   `socks://1.2.3.5:1235:https://changeip.com`
 -   `https://user1:pass1@1.2.3.5:1235:changeip.com`
 
@@ -86,10 +79,6 @@ You can limit the number of script runs by the number of successes or failures.
 ![tab.accounts](./src-docs/tab.accounts.png)
 ![tab.proxies](./src-docs/tab.proxies.png)
 ![tab.other](./src-docs/tab.other.png)
-
-# Install
-
-Clone or [download](https://github.com/Sadzurami/ClientEndlessSpaceG2G/archive/refs/heads/main.zip) this repository and run `ClientEndlessSpaceG2G.exe`
 
 # Requirements
 
