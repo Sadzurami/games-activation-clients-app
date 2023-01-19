@@ -1,6 +1,6 @@
-# Endless Space Activation Client
+# Dungeon of the Endless Activation Client
 
-A simple application for mass activating game ENDLESS™ Space - Definitive Edition for steams accounts.
+A simple application for mass activating game Dungeon of the Endless for steams accounts.
 
 # How it works
 
