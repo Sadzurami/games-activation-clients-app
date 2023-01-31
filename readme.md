@@ -1,6 +1,6 @@
-# Dungeon of the Endless Activation Client
+# Games Activation Clients App
 
-A simple application for mass activating game Dungeon of the Endless for steams accounts.
+A simple application for mass activating games for steams accounts.
 
 # How it works
 
